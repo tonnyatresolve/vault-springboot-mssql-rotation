@@ -11,9 +11,9 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.knf.dev.demo</groupId>
-	<artifactId>spring-boot-spring-data-jpa-sqlserver-crud</artifactId>
+	<artifactId>vault-springboot-mssql-rotation</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>spring-boot-spring-data-jpa-sqlserver-crud</name>
+	<name>vault-springboot-mssql-rotation</name>
 	<description>Demo project for Spring Boot</description>
 	<properties>
 		<java.version>17</java.version>
