@@ -1,4 +1,4 @@
-package com.knf.dev.demo.exception;
+package com.mssql.demo.exception;
 
 import com.fasterxml.jackson.annotation.JsonFormat;
 import java.time.LocalDateTime;

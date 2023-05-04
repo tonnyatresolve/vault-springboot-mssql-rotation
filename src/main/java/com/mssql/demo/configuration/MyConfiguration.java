@@ -1,10 +1,8 @@
-package com.knf.dev.demo;
+package com.mssql.demo.configuration;
 
+//import org.springframework.context.annotation.Configuration;
 import org.springframework.boot.context.properties.ConfigurationProperties;
 
-/**
- * @author Mark Paluch
- */
 @ConfigurationProperties("spring.datasource")
 public class MyConfiguration {
 

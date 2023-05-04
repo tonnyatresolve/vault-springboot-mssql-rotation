@@ -1,6 +1,6 @@
-package com.knf.dev.demo.repository;
+package com.mssql.demo.repository;
 
-import com.knf.dev.demo.entity.User;
+import com.mssql.demo.entity.User;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 public interface UserRepository extends JpaRepository<User, Long> {

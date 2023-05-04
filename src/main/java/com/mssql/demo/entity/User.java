@@ -1,4 +1,4 @@
-package com.knf.dev.demo.entity;
+package com.mssql.demo.entity;
 
 import jakarta.persistence.*;
 

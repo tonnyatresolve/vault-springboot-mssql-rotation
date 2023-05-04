@@ -1,11 +1,11 @@
-package com.knf.dev.demo.controller;
+package com.mssql.demo.controller;
 
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
-import com.knf.dev.demo.entity.User;
-import com.knf.dev.demo.exception.ResourceNotFoundException;
-import com.knf.dev.demo.repository.UserRepository;
+import com.mssql.demo.entity.User;
+import com.mssql.demo.exception.ResourceNotFoundException;
+import com.mssql.demo.repository.UserRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.CrossOrigin;
@@ -20,7 +20,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
-import com.knf.dev.demo.*;
+import com.mssql.demo.configuration.MyConfiguration;
 
 @CrossOrigin(origins = "*")
 @RestController
