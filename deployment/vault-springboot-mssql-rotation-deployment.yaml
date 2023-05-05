@@ -17,6 +17,6 @@ spec:
     spec:
       containers:
       - name: vault-springboot-mssql-rotation
-        image: givenreslvtech/vault-springboot-mssql-rotation:v1.4
+        image: givenreslvtech/vault-springboot-mssql-rotation:v1.5
         ports:
         - containerPort: 8080
