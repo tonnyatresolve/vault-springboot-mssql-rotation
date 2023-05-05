@@ -1,0 +1,22 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: vault-springboot-mssql-rotation
+  namespace: vault-springboot-rotation-test
+  labels:
+    app: vault-springboot-mssql-rotation
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: vault-springboot-mssql-rotation
+  template:
+    metadata:
+      labels:
+        app: vault-springboot-mssql-rotation
+    spec:
+      containers:
+      - name: vault-springboot-mssql-rotation
+        image: givenreslvtech/vault-springboot-mssql-rotation:v1.4
+        ports:
+        - containerPort: 8080
