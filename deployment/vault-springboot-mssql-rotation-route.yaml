@@ -1,0 +1,16 @@
+apiVersion: route.openshift.io/v1
+kind: Route
+metadata:
+  labels:
+    app: vault-springboot-mssql-rotation
+  name: vault-springboot-mssql-rotation
+  namespace: vault-springboot-rotation-test
+spec:
+  host: vault-springboot-mssql-rotation.apps.ocp.resolve.local
+  port:
+    targetPort: web
+  to:
+    kind: Service
+    name: vault-springboot-mssql-rotation 
+    weight: 100
+  wildcardPolicy: None
